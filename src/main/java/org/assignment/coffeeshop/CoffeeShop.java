@@ -9,15 +9,12 @@ import org.assignment.coffeeshop.loyalty.LoyaltyCard;
 import org.assignment.coffeeshop.order.Order;
 import org.assignment.coffeeshop.order.OrderService;
 import org.assignment.coffeeshop.order.impl.OrderServiceImpl;
-import org.assignment.coffeeshop.printer.LoggerService;
-import org.assignment.coffeeshop.printer.impl.LoggerServiceImpl;
 
 public class CoffeeShop {
 
     public static void main(String... args) {
 
         OrderService orderService = new OrderServiceImpl();
-        LoggerService orderLoggerService = new LoggerServiceImpl();
         LoyaltyCard loyaltyCard = new LoyaltyCard();
 
         Order order = new Order();
@@ -27,6 +24,6 @@ public class CoffeeShop {
         );
 
         orderService.charge(order, loyaltyCard);
-        orderLoggerService.print(order);
+        orderService.printReceipt(order);
     }
 }
