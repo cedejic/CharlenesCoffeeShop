@@ -1,10 +1,10 @@
-package org.assignment.coffeeshop.printer.impl;
+package org.assignment.coffeeshop.logger.impl;
 
 import org.assignment.coffeeshop.consumable.Consumable;
 import org.assignment.coffeeshop.consumable.beverage.Beverage;
 import org.assignment.coffeeshop.consumable.extra.Extra;
 import org.assignment.coffeeshop.order.Order;
-import org.assignment.coffeeshop.printer.LoggerService;
+import org.assignment.coffeeshop.logger.LoggerService;
 
 import java.math.BigDecimal;
 import java.util.logging.ConsoleHandler;

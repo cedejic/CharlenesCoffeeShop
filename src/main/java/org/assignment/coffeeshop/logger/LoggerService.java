@@ -1,4 +1,4 @@
-package org.assignment.coffeeshop.printer;
+package org.assignment.coffeeshop.logger;
 
 import org.assignment.coffeeshop.order.Order;
 

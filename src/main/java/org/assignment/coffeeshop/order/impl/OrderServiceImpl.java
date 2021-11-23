@@ -7,8 +7,8 @@ import org.assignment.coffeeshop.loyalty.LoyaltyCard;
 import org.assignment.coffeeshop.order.Order;
 import org.assignment.coffeeshop.order.OrderService;
 import org.assignment.coffeeshop.order.OrderStatus;
-import org.assignment.coffeeshop.printer.LoggerService;
-import org.assignment.coffeeshop.printer.impl.LoggerServiceImpl;
+import org.assignment.coffeeshop.logger.LoggerService;
+import org.assignment.coffeeshop.logger.impl.LoggerServiceImpl;
 
 import java.math.BigDecimal;
 import java.util.List;
