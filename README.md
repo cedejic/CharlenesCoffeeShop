@@ -1,4 +1,5 @@
 ### Running the application  
+The application is developed using Java 11 SE.
 The application can be run from the main method, but it has fixed code just to show basic functionality.
 
 ### Running tests
